@@ -12,7 +12,7 @@
     'use strict';
 
     GM_addStyle(`
-        div.cdk-overlay-pane.mat-autocomplete-panel-above {
+        div.cdk-overlay-pane, div.mat-autocomplete-panel-above {
             width: fit-content !important;
         }
     `);
